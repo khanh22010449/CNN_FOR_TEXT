@@ -1,0 +1,37 @@
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower ServerApp, config: num_rounds=50, no round_timeout
+[92mINFO [39m:
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Using initial global parameters provided by strategy
+[92mINFO [39m:      Starting evaluation of initial global parameters
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=5280) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.pid = os.fork()
+[92mINFO [39m:      💡 New best global model found: 0.501200
+[92mINFO [39m:      initial parameters (loss, other metrics): 0.8648305167058471, {'centralized_accuracy': 0.5012}
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 1]
+[92mINFO [39m:      configure_fit: strategy sampled 50 clients (out of 100)
+[33m(raylet)[39m [2025-02-21 17:14:42,113 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05255 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+Validation Accuracy: 0.5012
+[33m(raylet)[39m [2025-02-21 17:14:52,133 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05253 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 17:15:02,144 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05251 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[36m(ClientAppActor pid=6388)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.
+[36m(ClientAppActor pid=6388)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args]
+[36m(ClientAppActor pid=6388)[39m [92mINFO [39m:      task.py
+[36m(ClientAppActor pid=6388)[39m [92mINFO [39m:      len vocab 68000
+[36m(ClientAppActor pid=6388)[39m [92mINFO [39m:      len vocab 68000
+[36m(ClientAppActor pid=6388)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=6388) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[36m(ClientAppActor pid=6388)[39m   self.pid = os.fork()
+Map:   0%|          | 0/250 [00:00<?, ? examples/s]
+Map: 100%|██████████| 250/250 [00:00<00:00, 3611.57 examples/s]
+[36m(ClientAppActor pid=6386)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.[32m [repeated 4x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)
+[36m(ClientAppActor pid=6386)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args][32m [repeated 4x across cluster]
+[36m(ClientAppActor pid=6386)[39m [92mINFO [39m:      task.py[32m [repeated 3x across cluster]
+[36m(ClientAppActor pid=6386)[39m [92mINFO [39m:      len vocab 68000[32m [repeated 6x across cluster]
+[33m(raylet)[39m [2025-02-21 17:15:12,188 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05095 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[36m(ClientAppActor pid=6386)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=6386) is multi-threaded, use of fork() may lead to deadlocks in the child.[32m [repeated 3x across cluster]
+[36m(ClientAppActor pid=6386)[39m   self.pid = os.fork()[32m [repeated 3x across cluster]
+[33m(raylet)[39m [2025-02-21 17:15:22,255 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05091 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 17:15:32,320 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05075 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 17:15:42,405 E 5436 5472] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_17-14-18_588298_5280 is over 95% full, available space: 9.05082 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.

@@ -1,0 +1,41 @@
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower ServerApp, config: num_rounds=50, no round_timeout
+[92mINFO [39m:
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Using initial global parameters provided by strategy
+[92mINFO [39m:      Starting evaluation of initial global parameters
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=12803) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.pid = os.fork()
+[33m(raylet)[39m [2025-02-21 16:41:11,296 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 9.02655 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[92mINFO [39m:      💡 New best global model found: 0.501200
+[92mINFO [39m:      initial parameters (loss, other metrics): 0.8511204324710141, {'centralized_accuracy': 0.5012}
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 1]
+[92mINFO [39m:      configure_fit: strategy sampled 50 clients (out of 100)
+Validation Accuracy: 0.5012
+[33m(raylet)[39m [2025-02-21 16:41:21,315 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95852 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[36m(ClientAppActor pid=13971)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.
+[36m(ClientAppActor pid=13971)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args]
+[36m(ClientAppActor pid=13971)[39m [92mINFO [39m:      task.py
+[36m(ClientAppActor pid=13971)[39m [92mINFO [39m:      len vocab 68000
+[36m(ClientAppActor pid=13971)[39m [92mINFO [39m:      len vocab 68000
+Map:   0%|          | 0/250 [00:00<?, ? examples/s]
+Map: 100%|██████████| 250/250 [00:00<00:00, 4079.46 examples/s]
+[36m(ClientAppActor pid=13969)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=13969) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[36m(ClientAppActor pid=13969)[39m   self.pid = os.fork()
+[33m(raylet)[39m [2025-02-21 16:41:31,332 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.9571 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[36m(ClientAppActor pid=13970)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.[32m [repeated 5x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)
+[36m(ClientAppActor pid=13970)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args][32m [repeated 5x across cluster]
+[36m(ClientAppActor pid=13970)[39m [92mINFO [39m:      task.py[32m [repeated 3x across cluster]
+[36m(ClientAppActor pid=13970)[39m [92mINFO [39m:      len vocab 68000[32m [repeated 6x across cluster]
+[36m(ClientAppActor pid=13970)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=13970) is multi-threaded, use of fork() may lead to deadlocks in the child.[32m [repeated 3x across cluster]
+[36m(ClientAppActor pid=13970)[39m   self.pid = os.fork()[32m [repeated 3x across cluster]
+[33m(raylet)[39m [2025-02-21 16:41:41,367 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.96317 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:41:51,440 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95779 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:01,499 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95697 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:11,569 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95687 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:21,629 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.9554 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:31,701 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95501 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:41,793 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.95483 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.
+[33m(raylet)[39m [2025-02-21 16:42:51,868 E 12979 13009] (raylet) file_system_monitor.cc:116: /tmp/ray/session_2025-02-21_16-40-50_066131_12803 is over 95% full, available space: 8.96272 GB; capacity: 182.281 GB. Object creation will fail if spilling is required.

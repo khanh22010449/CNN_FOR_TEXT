@@ -1,0 +1,134 @@
+{
+    "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.39",
+    "python": "3.12.7",
+    "heartbeatAt": "2025-02-21T10:14:34.864421",
+    "startedAt": "2025-02-21T10:14:34.242855",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--app",
+        ".",
+        "--num-supernodes",
+        "100",
+        "--backend-config",
+        "{\"client-resources\": {\"num-cpus\": 4, \"num-gpus\": 0.25}}"
+    ],
+    "state": "running",
+    "program": "/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation",
+    "codePathLocal": null,
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "128336094+khanh22010449@users.noreply.github.com",
+    "root": "/home/khanhtl/Code/FL",
+    "host": "khanhtl",
+    "username": "khanhtl",
+    "executable": "/home/khanhtl/miniconda3/envs/FL/bin/python3.12",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3138.266875,
+        "min": 400.0,
+        "max": 4785.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3007.754,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 2996.451,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 4493.568,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3018.632,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3746.338,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3022.173,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 4495.823,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3004.705,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 4603.463,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3007.826,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 4214.972,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 3137.409,
+            "min": 400.0,
+            "max": 4785.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4785.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 182.2811393737793,
+            "used": 163.83457565307617
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 22.767772674560547
+    }
+}

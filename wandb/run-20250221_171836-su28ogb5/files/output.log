@@ -1,0 +1,29 @@
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower ServerApp, config: num_rounds=50, no round_timeout
+[92mINFO [39m:
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Using initial global parameters provided by strategy
+[92mINFO [39m:      Starting evaluation of initial global parameters
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=21576) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.pid = os.fork()
+[92mINFO [39m:      💡 New best global model found: 0.501200
+[92mINFO [39m:      initial parameters (loss, other metrics): 0.7495958972129093, {'centralized_accuracy': 0.5012}
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 1]
+[92mINFO [39m:      configure_fit: strategy sampled 50 clients (out of 100)
+Validation Accuracy: 0.5012
+[36m(ClientAppActor pid=22752)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.
+[36m(ClientAppActor pid=22752)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args]
+[36m(ClientAppActor pid=22752)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.
+[36m(ClientAppActor pid=22752)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args]
+[36m(ClientAppActor pid=22752)[39m [92mINFO [39m:      task.py
+[36m(ClientAppActor pid=22752)[39m [92mINFO [39m:      len vocab 68000
+[36m(ClientAppActor pid=22752)[39m [92mINFO [39m:      len vocab 68000
+[36m(ClientAppActor pid=22752)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=22752) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[36m(ClientAppActor pid=22752)[39m   self.pid = os.fork()
+Map:   0%|          | 0/250 [00:00<?, ? examples/s]
+Map: 100%|██████████| 250/250 [00:00<00:00, 4840.74 examples/s]
+[36m(ClientAppActor pid=22753)[39m /home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/datasets/utils/_dill.py:385: DeprecationWarning: co_lnotab is deprecated, use co_lines instead.[32m [repeated 3x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)
+[36m(ClientAppActor pid=22753)[39m   obj.co_lnotab,  # for < python 3.10 [not counted in args][32m [repeated 3x across cluster]
+[36m(ClientAppActor pid=22754)[39m [92mINFO [39m:      task.py[32m [repeated 3x across cluster]
